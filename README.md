@@ -5,14 +5,14 @@ REST stands for Representation State Transfer.
 I has the possibility to create, read, update and delete information.  
 Here is some examples of how to use the different functions.  
 
-###Get:  
+### Get:  
 HTTP://some.url/cars could fx. return a list of cars.  
 HTTP://some.url/cars /1 could return a car mathing the id 1.  
 
-###Delete:  
+### Delete:  
 The URL would be structed the same as get example 2 but instead of returning something it deletes the element.  
 
-###Post and put:  
+### Post and put:  
 has a json body that contains the information about what you want to change/create. 
   
 It runs on the http protocol.  
